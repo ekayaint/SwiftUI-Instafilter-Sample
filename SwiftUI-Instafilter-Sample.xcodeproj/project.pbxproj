@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4997E2042AE2C71A00D83AEB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997E2032AE2C71A00D83AEB /* ImagePicker.swift */; };
+		4997E2062AE2C74A00D83AEB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997E2052AE2C74A00D83AEB /* ImageSaver.swift */; };
 		49AF9B892ADDA7F9009F6404 /* SwiftUI_Instafilter_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9B882ADDA7F9009F6404 /* SwiftUI_Instafilter_SampleApp.swift */; };
 		49AF9B8B2ADDA7F9009F6404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9B8A2ADDA7F9009F6404 /* ContentView.swift */; };
 		49AF9B8D2ADDA7FA009F6404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AF9B8C2ADDA7FA009F6404 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4997E2032AE2C71A00D83AEB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4997E2052AE2C74A00D83AEB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		49AF9B852ADDA7F9009F6404 /* SwiftUI-Instafilter-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Instafilter-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF9B882ADDA7F9009F6404 /* SwiftUI_Instafilter_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Instafilter_SampleApp.swift; sourceTree = "<group>"; };
 		49AF9B8A2ADDA7F9009F6404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4997E2072AE2C75400D83AEB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4997E2032AE2C71A00D83AEB /* ImagePicker.swift */,
+				4997E2052AE2C74A00D83AEB /* ImageSaver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		49AF9B7C2ADDA7F9009F6404 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			children = (
 				49AF9B882ADDA7F9009F6404 /* SwiftUI_Instafilter_SampleApp.swift */,
 				49AF9B8A2ADDA7F9009F6404 /* ContentView.swift */,
+				4997E2072AE2C75400D83AEB /* Utils */,
 				49AF9B8C2ADDA7FA009F6404 /* Assets.xcassets */,
 				49AF9B8E2ADDA7FA009F6404 /* Preview Content */,
 			);
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4997E2042AE2C71A00D83AEB /* ImagePicker.swift in Sources */,
 				49AF9B8B2ADDA7F9009F6404 /* ContentView.swift in Sources */,
 				49AF9B892ADDA7F9009F6404 /* SwiftUI_Instafilter_SampleApp.swift in Sources */,
+				4997E2062AE2C74A00D83AEB /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
